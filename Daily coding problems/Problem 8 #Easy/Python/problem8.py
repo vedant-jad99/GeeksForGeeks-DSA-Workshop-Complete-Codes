@@ -1,3 +1,4 @@
+#Driver code
 class Node:
     def __init__(self, val):
         self.val = val
@@ -20,6 +21,7 @@ def print_tree(root):
         print_tree(root.left)
         print_tree(root.right)
 
+#Main solution code
 def count_unival(root):
     if root == None:
         return True, 0
@@ -33,7 +35,7 @@ def count_unival(root):
             return True, 1 + l_val + r_val
     return False, l_val + r_val
     
-
+#Driver code
 if __name__ == '__main__':
     tree = create()
     print("\n")
