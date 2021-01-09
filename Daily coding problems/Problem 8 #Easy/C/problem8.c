@@ -3,6 +3,7 @@
 #include <stdbool.h>
 #define null NULL
 
+//Driver code
 typedef struct binary_tree {
     int val;
     struct binary_tree *left;
@@ -34,6 +35,7 @@ void printTree(Tree *root) {
     }
 }
 
+//Main solution
 bool unival_subtrees(Tree *root, int *s) {
     static int count = 0;
     if(root == null)
@@ -57,6 +59,7 @@ bool unival_subtrees(Tree *root, int *s) {
     return false;
 }
 
+//Driver code
 int main() {
     Tree *root;
     root = tree();
