@@ -22,6 +22,8 @@ Constraints:
         0 ≤ arr[i] ≤ 10^18
 */
 
+//This is a deque implementation, which actually here, is functioning similarly as a linked list with head insertion and head deletion
+
 #include <iostream>
 #include <vector>
 #include <deque>
