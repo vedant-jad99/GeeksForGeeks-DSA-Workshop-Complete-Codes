@@ -19,6 +19,8 @@ Constraints:
         -10^9 <= target <= 10^9
 */
 
+//Algorithm used here is binary search
+
 #include <iostream>
 #include <vector>
 #include <limits.h>
