@@ -1,3 +1,16 @@
+/*
+Consider a big party where N guests came to it and a log register for guest’s entry and exit times was maintained. Find the minimum time at which there were maximum guests at the party. Note that entries in the register are not in any order.
+Example:
+        Input - N = 5, Entry= {1, 2,10, 5, 5}, Exit = {4, 5, 12, 9, 12}
+        Output - 3 5
+        Explanation - At time 5 there were guest number 2, 4 and 5 present.
+     
+        Input: N = 7, Entry= {13, 28, 29, 14, 40, 17, 3}, Exit = {107, 95, 111, 105, 70, 127, 74}
+Output: 7 40
+Explanation: At time 40 there were 
+             all 7 guests present in the party.
+*/
+
 #include <iostream>
 #include <vector>
 #include <algorithm>
