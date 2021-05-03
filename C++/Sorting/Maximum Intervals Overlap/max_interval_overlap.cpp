@@ -10,7 +10,9 @@ Example:
         Explanation: At time 40 there were all 7 guests present in the party.
 
 Constraints:
-        Time Complexity - O(N
+        Time Complexity - O(N*Log(N))
+        Space Complexity - O(1)
+        Constriaints
 */
 
 #include <iostream>
