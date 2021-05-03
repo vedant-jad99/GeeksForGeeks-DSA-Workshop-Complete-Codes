@@ -1,3 +1,20 @@
+/*
+Given an array arr of N integers. Find the contiguous sub-array with maximum sum.
+Example: 
+        Input - N = 5, arr[] = {1,2,3,-2,5}
+        Output - 9
+        Explanation - Maximum sum = 1 + 2 + 3 - 2 + 5 = 9  
+
+        Input - N = 4, arr[] = {-1,-2,-3,-4}
+        Output - -1
+        
+Constraints:
+        Time Complexity - O(N)
+        Space Complexity - O(1)
+        1 ≤ N ≤ 10^6
+        -10^7 ≤ A[i] <= 10^7
+*/
+
 #include <iostream>
 
 using namespace std;
