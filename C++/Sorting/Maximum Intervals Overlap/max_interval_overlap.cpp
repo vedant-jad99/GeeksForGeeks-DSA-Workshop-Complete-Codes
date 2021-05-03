@@ -3,16 +3,17 @@ Consider a big party where N guests came to it and a log register for guest’s 
 Example:
         Input - N = 5, Entry= {1, 2,10, 5, 5}, Exit = {4, 5, 12, 9, 12}
         Output - 3 5
-        Explanation - At time 5 there were guest number 2, 4 and 5 present.
+        Explanation - At time 5 there was guest number 2, 4 and 5 present.
      
         Input: N = 7, Entry= {13, 28, 29, 14, 40, 17, 3}, Exit = {107, 95, 111, 105, 70, 127, 74}
         Output: 7 40
-        Explanation: At time 40 there were all 7 guests present in the party.
+        Explanation: At time 40 there were all 7 guests present at the party.
 
 Constraints:
         Time Complexity - O(N*Log(N))
         Space Complexity - O(1)
-        Constriaints
+        1 <= N <= 10^5
+        1 <= Entry[i],Exit[i] <= 10^5
 */
 
 #include <iostream>
