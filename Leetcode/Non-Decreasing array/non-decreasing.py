@@ -33,7 +33,7 @@ def checkPossibility(nums):
         violating, we can replace it with:
         1. the previous element if it is less than element before previous, i.e, if a[i] < a[i - 1] and a[i] < a[i - 2]
         2. else we will replace the previous element with the current element
-        We will increase the counter for violation. If there is another violation, then we will exit loop.        
+        We will increase the counter for violation. If there are more than one violation, then we will return false.        
         '''         
         counter = 0
         for i, _ in enumerate(nums[1:], 1):
