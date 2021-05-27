@@ -20,7 +20,7 @@ Example:
         Note that if the root was 70, it would have been a SumTree
         
 Constraints:
-        Time complexity - O(N)
+        Time complexity - O(N^2)
         Space complexity - O(1)
         1 ≤ number of nodes ≤ 10^4
 */
