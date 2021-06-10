@@ -32,6 +32,28 @@ class Solution:
         generate(nums, 0, len(nums))
         return permutations
 
+#Approach 2. Using extra space O(N) space.
+"""
+class Solution:
+    def permuteUnique(self, nums):
+        def generate(num, array):
+            if num == []:
+                permutations.append(array[:])
+                return
+
+            for i in range(len(num)):
+                array.append(num.pop(i))
+                generate(num, array)
+                num.insert(i, array.pop())
+            return
+
+        permutations = []
+        generate(nums, [])
+        return permutations
+
+"""
+
+
 if __name__ == "__main__":
     nums = input()
     if not nums.startswith('[') or not nums.endswith(']'):
