@@ -8,7 +8,7 @@ Example:
         Output - [[0,1],[1,0]]
         
 Constraints:
-        Time complexity - O(n!)
+        Time complexity - O(n*n!)
         Space complexity - O(n!) [For storing answers only]        
         1 <= nums.length <= 6
         -10 <= nums[i] <= 10
