@@ -43,7 +43,7 @@ class Solution:
                         points.append((i, j))
             return points
             
-        def DFS(word, i, j, board):
+        def dfs(word, i, j, board):
             if word == "":
                 return True
                 
@@ -55,7 +55,7 @@ class Solution:
                     
                     if board[i + x][j + y] == word[0]:
                         board[i + x][j + y] = '0'
-                        if DFS(word[1:], i + x, j + y, board):
+                        if dfs(word[1:], i + x, j + y, board):
                             return True
                         
                         board[i + x][j + y] = word[0]
@@ -73,7 +73,7 @@ class Solution:
                 continue
             for i, j in points:
                 copy[i][j] = "0"
-                if DFS(word[1:], i, j, copy):
+                if dfs(word[1:], i, j, copy):
                     words.add(word)
                 copy[i][j] = word[0]
     
