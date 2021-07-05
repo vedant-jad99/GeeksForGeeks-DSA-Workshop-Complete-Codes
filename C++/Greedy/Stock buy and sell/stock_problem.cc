@@ -18,6 +18,11 @@ Constraints:
         0 ≤ A[i] ≤ 106
 */
 
+#include <iostream>
+#include <vector>
+
+using namespace std;
+
 class Solution{
 public:
     //Function to find the days of buying and selling stock for max profit.
