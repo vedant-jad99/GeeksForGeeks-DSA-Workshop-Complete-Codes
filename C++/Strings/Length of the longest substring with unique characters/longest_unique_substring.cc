@@ -13,6 +13,8 @@ Constraints:
         Time complexity - O(|S|)
         Space complexity - O(k)
         1 ≤ |S| ≤ 105
+        
+Approach: Sliding window
 */
 
 #include <iostream>
