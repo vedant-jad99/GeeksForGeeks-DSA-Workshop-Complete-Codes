@@ -20,8 +20,12 @@ class Solution
                 ones = 1;
                 
                 for(int j = 1; j <  n; j++)
-                    if(i != j && M[j][i])
-                        ones += 1;
+                    if(i != j) {
+                        if(M[j][i])
+                            ones += 1;
+                        else
+                            break;
+                    }
                 
                 if(ones == n - 1)
                     s.push(i);
@@ -33,6 +37,8 @@ class Solution
             for(int i = 1; i < n; i++)
                 if(M[i][0])
                     ones++;
+                else
+                    break;
             
             if(ones == n - 1)
                 return 0;
