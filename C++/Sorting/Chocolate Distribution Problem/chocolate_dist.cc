@@ -1,7 +1,7 @@
 //Link to the problem - https://practice.geeksforgeeks.org/problems/chocolate-distribution-problem3825/1#
 
 #include <iostream>
-#incldue <vector>
+#include <vector>
 #include <algorithm>
 
 using namespace std;
