@@ -1,7 +1,7 @@
 //Link to the problem - https://practice.geeksforgeeks.org/problems/sum-of-all-substrings-of-a-number-1587115621/1
 
 //*****************************************************************************
-//                              IMPORTANT
+//                               IMPORTANT
 //*****************************************************************************
 
 
